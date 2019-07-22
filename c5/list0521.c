@@ -25,13 +25,13 @@ int main(void) {
             for (k = 0; k < 3; k++)
                 sum += tensu1[i][k] * tensu2[k][j];
             tensu3[i][j] = sum;
-
+ 
         }
     }
     printf("它们的乘积是：\n");
     for (i = 0; i < 4; i++) {
         for (j = 0; j < 4; j ++ )
-            printf("%d", tensu3[i][j]);
+            printf("%d  ", tensu3[i][j]);
         printf("\n");
     }
     return 0;
