@@ -15,7 +15,7 @@ void rev_intary(int v[], int n) {
 
 int main(void) {
     int n;
-    int a[n];
+    int a[100];
     int i;
 
     printf("请输入数组的元素的个数：");
