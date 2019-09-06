@@ -1,85 +1,81 @@
 *{
 	padding: 0px;
 	margin: 0px;
-	line-height:30px;
+	line-height:30px;/* 增加行高 */
 }
-
-#d1{
+/* 整体的布局 */
+#details{
 	width: 860px;
 	height:1051px;
-	margin: 10% 15%;
-  box-shadow: 0 15px 20px 23px rgba(0,0,0,0.12);
+	margin: 10% 15%;/* 外边距 */
+  	box-shadow: 0 15px 20px 23px rgba(0,0,0,0.12);/* 设置阴影 */
 	}
-#d2{
+	/* 页眉第一块 */
+#header_1{
 	width: 400px;
 	font-size: 30px;
-	padding: 65px 80px;
-	float:left;
+	padding: 65px 80px;/* 内边距 */
+	float:left;/* div左移 */
 	
 }
-#d3{
-	padding: 69px 81px;
+/* 页眉的第二块 */
+#header_2{
+	padding: 69px 81px;/* 设置内边距 */
 }
+/* “个人简历” */
 #h1{
 	font-size: 20px;
 	color: #9B9B9B;
-  letter-spacing: 2px;
 }
-#h2{
+/* 电话 */
+#phone{
 	background: url("../image/aa.png");
-	background-position:right;
+	background-position:right;/* 设置图片右移 */
 	background-size: 25px 25px;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;/* 设置图片不重复 */
 }
-
-#h3{
+/* 邮箱 */
+#e-mail{
 	background: url("../image/bb.png");
 	background-position:right;
 	background-size: 25px 25px;
 	background-repeat: no-repeat;
 }
+/* 页眉第二块的颜色和字体大小 */
 .c1{
 	 font-size: 15px;
 	 color: #9B9B9B;
 
 	}
-#d4{
+/* 第一块 */
+#section_1{
 	
 	width: 500px;
 	height: 750px;
 	float: left;
 	padding: 50px 50px;
 }
-.c2{
+/* 所有标题的背景色 */
+.background{
 	
-	background-color: #BFBEA2;
+	background-color: #D0E6E8;
 }
-.c3{
+/* 所有文本内容颜色 */
+.text{
 	color: #9B9B9B;
-	text-align:left;
 }
 
-
-#d5{
-	height: 250px;
-	
-}
-
+/* 设置图片 */
 img{
 	width:180px;
 	height:180px;
 	border-radius: 125px;
 	padding:40px;
 }
-#d6{
+/* 设置第二块 */
+#section_2{
 	
 	float: left;
 	padding: 50px 50px;
 }
-
-	
-#p1{
-	background-color: red;
-  
-	background-color: #BFBEA2;
-}		
+		
