@@ -15,7 +15,7 @@
 #header_1{
 	width: 400px;
 	font-size: 30px;
-	padding: 65px 80px;/* 内边距 */
+	padding: 69px 80px;/* 内边距 */
 	float:left;/* div左移 */
 	
 }
@@ -50,7 +50,7 @@ hr{
 
 
 /* 页眉第二块的颜色和字体大小 */
-.c1{
+.foot{
 	 font-size: 15px;
 	 color: #9B9B9B;
 
@@ -64,12 +64,12 @@ hr{
 	padding: 50px 70px;
 }
 /* 所有标题的背景色 */
-.background{
-	
+h2{
 	background-color: #D0E6E8;
 }
 /* 所有文本内容颜色 */
-.text{
+h4,p{
+	font-size: 16px;
 	color: #9B9B9B;
 }
 
